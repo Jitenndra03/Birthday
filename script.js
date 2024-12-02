@@ -10,14 +10,14 @@ const imagesData = [
     { src: 'images/image9.jpg', message: '👋 baal h ki ........ikyk very well 😂' },
     { src: 'images/image10.jpg', message: '🎈 Isliye khte h nasha nhi krna chaiye 🤣' },
     { src: 'images/image11.jpg', message: '🎉 Kya be ungli kisko dikha rha 🎯' },
-    { src: 'images/image12.jpeg', message: '🤫 Your secrets are safe with me. I never even listen when you tell me them.' },
-    { src: 'images/image13.jpeg', message: '🔄 You’re like a software update. Whenever I see you, I think “Not now.” 😆' },
-    { src: 'images/image14.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image12.jpeg', message: '🤫 Just dont change, teri gaali, tere gande karm sab pyaare h' },
+    { src: 'images/image13.jpeg', message: '🔄 Bhaiii ab to SUDHAR JAA!!! 😆' },
+    { src: 'images/image14.jpeg', message: '📴 YOU are very special to us aur sath to rhena hi pade ga humesha! 😂' },
    // { src: 'images/image15.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
-    { src: 'images/image16.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
-    { src: 'images/image19.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
-    { src: 'images/image18.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
-    { src: 'images/image17.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image16.jpeg', message: '📴 Rahe ga tu chota hi! Bada hoke kya badal gya? 😂' },
+    { src: 'images/image19.jpeg', message: '📴 Just another year of khub saari masti, bachpana, ajab gajab ideas and soo much more!!!🌟😂' },
+    { src: 'images/image18.jpeg', message: '📴 ek din bhai PSIT ke bagal emin tera naam golden words mein likha jayega😂' },
+    { src: 'images/image17.jpeg', message: '📴 Last birthday se ab tak group kaafi chota hogya, but we stayed and will always🫶🏻 Happy 20 pagal! 😂' },
 ];
 
 const gallery = document.getElementById('gallery');
