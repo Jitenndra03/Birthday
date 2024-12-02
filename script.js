@@ -1,10 +1,10 @@
 const imagesData = [
-    { src: 'images/image1.jpg', message: '🎈 You’re like a cloud… fluffy and useless.' },
-    { src: 'images/image2.jpg', message: '🎂 Birthdays suit you. You’re like fine wine… stale. 🍷' },
-    { src: 'images/image3.jpg', message: '🎉 You’re living proof that age is just a number. #ForeverYoung 🕺' },
-    { src: 'images/image4.jpg', message: '😂 Happy Birthday! Another year older and still clueless!' },
-    { src: 'images/image5.jpg', message: '🎁 Remember when you were young and cool? Me neither. 🤭' },
-    { src: 'images/image6.jpg', message: '📱 You’re aging like a smartphone… quickly obsolete.' },
+    { src: 'images/image1.jpg', message: '🎈 dekh kya rha h thank you bol' },
+    { src: 'images/image2.jpg', message: '🎂 Narak mein bhi jgh nhi milegi hm dono ko pta h naaa 🍷' },
+    { src: 'images/image3.jpg', message: '🎉 Kuch bhi bol luu tumse h to mera dost hi 🕺' },
+    { src: 'images/image4.jpg', message: '😂 Thank you for always being with me honestly I don’t even remember ki kitni baar tumhare saath hone se hi I feel a lot better jb bhi mood krab hota h ' },
+    { src: 'images/image5.jpg', message: '🎁 Happy happy wala birthday 🤭' },
+    { src: 'images/image6.jpg', message: '📱 Chalo mene to bahoot kuch bol liya h ab bhabi ji ko bolne deta hunn' },
     { src: 'images/image7.jpg', message: '🎊 At least you’re not as old as you’ll be next year. 🙌' },
     { src: 'images/image8.jpg', message: '😎 Don’t worry, you’re not old… just vintage. 🛠️' },
     { src: 'images/image9.jpg', message: '👋 You bring everyone so much joy… when you leave the room. 😂' },
@@ -13,6 +13,11 @@ const imagesData = [
     { src: 'images/image12.jpeg', message: '🤫 Your secrets are safe with me. I never even listen when you tell me them.' },
     { src: 'images/image13.jpeg', message: '🔄 You’re like a software update. Whenever I see you, I think “Not now.” 😆' },
     { src: 'images/image14.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+   // { src: 'images/image15.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image16.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image19.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image18.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
+    { src: 'images/image17.jpeg', message: '📴 Now you’re officially too old to use emojis. 😂' },
 ];
 
 const gallery = document.getElementById('gallery');
@@ -24,6 +29,12 @@ imagesData.forEach(({ src, message }) => {
     const img = document.createElement('img');
     img.src = src;
     img.alt = 'Birthday Image';
+
+    // Add inline styles for image15
+    /*if (src === 'images/image15.jpeg') {
+        img.style.width = '400px';  // Set custom width
+        img.style.height = '150px'; // Set custom height
+    }*/
 
     const messageDiv = document.createElement('div');
     messageDiv.className = 'message';
@@ -43,3 +54,4 @@ imagesData.forEach(({ src, message }) => {
     container.appendChild(messageDiv);
     gallery.appendChild(container);
 });
+

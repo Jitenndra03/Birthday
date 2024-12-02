@@ -11,10 +11,22 @@
 <div class="gallery" id="gallery"></div>
 
 <!-- Background Music -->
-<audio>
+<audio id="birthdayAudio" loop>
     <source src="music/birthday_song.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
+
+<div id="startPrompt">
+    <button onclick="startAudio()">🎵 Click to Play Birthday Song</button>
+</div>
+
+<script>
+    function startAudio() {
+        const audio = document.getElementById('birthdayAudio');
+        audio.play();
+        document.getElementById('startPrompt').style.display = 'none'; // Hide the button once the audio starts
+    }
+</script>
 
 <script src="script.js"></script>
 </body>
